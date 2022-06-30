@@ -1,1 +1,1 @@
-# BSc-Thesis_-Time_Series_Databases
+# BSc_Thesis_Time_Series_Databases
