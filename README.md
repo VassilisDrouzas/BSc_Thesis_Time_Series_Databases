@@ -9,14 +9,19 @@ Execution instructions for TSBS (Time Series Benchmark Suite)
 Instructions:
 
 1.	Installation (recommended in docker format) of the TSDBs systems  you are interested in (and supported by TSBS). Indicatively, suppose we choose InfluxDB, TimescaleDB, QuestDB.
+
 The versions of the databases used in Docker:
+
 a)	QuestDB: 
+
 docker run -p 9000:9000 -p 9009:9009 -p 8812:8812 -p 9003:9003 questdb/questdb
 
 b)	InfluxDB: 
+
 docker run –name=influxdb -d -p 8086:8086 influxdb:1. 8
 
 c)	TimescaleDB: 
+
 docker run -d –name timescaledb -p 5432:5432 -e POSTGRES_PASSWORD=password timescale/timescaledb:latest-pg14
 
 
@@ -31,9 +36,11 @@ docker run -d –name timescaledb -p 5432:5432 -e POSTGRES_PASSWORD=password tim
 
 
 3.	We load the data into the database (tsbs_load command) and get benchmarking results  for the data ingestion. 
+
 ./tsbs_load_questdb --file /tmp/questdb-data --workers 8
 
 4.	We produce queries about the benchmarking process.
+
 ./tsbs_generate_queries --use-case="devops" --seed=123 --scale=200 \
    	 --timestamp-start="2016-01-01T00:00:00Z" \
     	--timestamp-end="2016-01-02T00:00:01Z" \
@@ -43,6 +50,7 @@ docker run -d –name timescaledb -p 5432:5432 -e POSTGRES_PASSWORD=password tim
 
 
 5.	We execute the queries.
+
 ./tsbs_run_queries_questdb --file /tmp/queries_questdb-high-cpu-all --workers=8 --print-interval 500
 
 Note: Special parameters, such as the number of workers (threads) or the value of  scale, which determines cardinality, can be determined based on your preferences.
