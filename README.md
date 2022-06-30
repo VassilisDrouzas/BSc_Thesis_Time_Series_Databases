@@ -2,7 +2,7 @@
 
 
 
-This repository contains my BSC thesis in Time Series Database Management Systems (TSDBs). The thesis focuses on two parts:
+This repository contains my BSc thesis in Time Series Database Management Systems (TSDBs). The thesis focuses on two parts:
 
 
 
