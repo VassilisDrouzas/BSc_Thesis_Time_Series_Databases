@@ -9,3 +9,6 @@ This repository contains my BSc thesis in Time Series Database Management System
 a) Time Series databases, presenting their characteristics and making a comparison between them
 
 b) Benchmarking between them and publishing results. The benchmark section includes comparative analysis both on data ingestion and query execution.
+
+
+For detailed instructions on how to use TSBS, check the instructions pdf file.
