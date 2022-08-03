@@ -1,5 +1,6 @@
 # BSc_Thesis_Time_Series_Databases
-![image](https://user-images.githubusercontent.com/81232757/182609681-85b4c923-0c05-499e-81b2-2e1783beb751.png)
+![image](https://user-images.githubusercontent.com/81232757/182610013-5c8d83c9-04bc-458d-ac2a-89ec134f74ab.png)
+
 
 
 
