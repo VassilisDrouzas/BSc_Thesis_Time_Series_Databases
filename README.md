@@ -13,4 +13,4 @@ a) Time Series databases, presenting their characteristics and making a comparis
 b) Benchmarking between the TSDBs and publishing results. The benchmark section includes comparative analysis both on data ingestion and query execution.
 
 
-For detailed instructions on how to use TSBS, check the section 7.2 on the thesis.
+For detailed instructions on how to use TSBS (the benchmarking tool), check the section 7.2 on the thesis.
